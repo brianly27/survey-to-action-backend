@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :actions
+  resources :surveys_resources
+  resources :resources
   resources :clients_surveys
   resources :surveys
   resources :users_clients

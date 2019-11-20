@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  resource: one
+  name: MyString
+  readme: MyString
+  form_name: MyString
+  form_url: MyString
+  contact_name: MyString
+  contact_phone: MyString
+  contact_email: MyString
+  location_name: MyString
+  location_lat: 9.99
+  location_long: 9.99
+
+two:
+  resource: two
+  name: MyString
+  readme: MyString
+  form_name: MyString
+  form_url: MyString
+  contact_name: MyString
+  contact_phone: MyString
+  contact_email: MyString
+  location_name: MyString
+  location_lat: 9.99
+  location_long: 9.99

@@ -10,6 +10,9 @@ Client.destroy_all
 UsersClient.destroy_all
 Survey.destroy_all
 ClientsSurvey.destroy_all
+Resource.destroy_all
+SurveysResource.destroy_all
+Action.destroy_all
 
 user1 = User.create(name: "brian")
 
@@ -20,3 +23,9 @@ uc1= UsersClient.create(user_id: user1.id, client_id: client1.id)
 survey1 = Survey.create(name: "survey 1")
 
 cs1 = ClientsSurvey.create(client_id: client1.id, survey_id: survey1.id)
+    
+resource1 = Resource.create(name: "resource 1")
+
+sr1 = SurveysResource.create(survey_id: survey1.id, resource_id: resource1.id)
+
+action1 = Action.create(resource_id: resource1.id, name: "action 1")
